@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
-import logoUsarb from './assets/logo_usarb.png'
-import backgroundImage from './assets/new_background_1.png'
+import { logoUsarb, backgroundImage } from './shared/assets'
 
 const days = [
   { label: 'Luni', short: 'L' },
@@ -479,8 +478,4 @@ function App() {
 }
 
 export default App
-
-
-
-
 
